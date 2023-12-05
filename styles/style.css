@@ -1,0 +1,171 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;    
+    list-style-type: none;
+    text-decoration: none;
+}
+.list_item:last-child{
+    margin-right: 0px;
+}
+
+
+.header_logotext{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #5E4CB3 2.17%, #9D61FF 18.36%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header_wrapper{
+    display: flex;
+    justify-content:space-between;
+    padding: 30px 30px 60px 80px;
+
+}
+.header_listwrapper{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+}  
+
+.header_logo{
+    display: flex; 
+    align-items: center;
+    justify-content: center
+}
+
+.header_list{
+    display: flex;
+}
+.whatssup_telegramlist{
+    display: flex;
+    align-items: center;
+
+}
+
+.whatssup_telegramwrapper{
+    display: flex;
+}
+
+.list_item{
+    color: #5E4CB3;
+    margin-right: 27px;
+}
+.whatssup_telegramitem{
+    margin-right: 15px;
+}
+.phone_number{
+    color: var(--text, #5E4CB3);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    line-height: normal;
+}
+
+.about_shift{
+    color: var(--text, #5E4CB3);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.call_order{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    color: #fff;
+    padding: 22px 34px;
+    border: none;
+    border-radius: 5px;
+    background: var(--Primary, #9D61FF);
+    margin-right: 140px;
+}
+
+.another{
+    margin-right: 10px;
+    justify-content: center;
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+}
+
+.aboutheader_lefside{
+    display: flex;
+    flex-direction: column;
+    padding-left: 170px;
+}
+
+.header_title{
+    color: var(--text, #5E4CB3);
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.title_span{
+    color: var(--Primary, #9D61FF)
+}
+
+.aboutheader_text{
+    color: var(--text, #5E4CB3);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 116px;
+}
+
+.aboutheader_text-span{
+    color: var(--Primary, #9D61FF);
+    font-weight: 700;
+}
+
+.checkprice{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    color: #fff;
+    padding: 22px 34px;
+    border: none;
+    border-radius: 5px;
+    background: var(--Primary, #9D61FF);
+    width: 275px;
+    margin-bottom: 20px;
+}
+
+.about_header-textbottom{
+    color: var(--Primary, #9D61FF);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 137.4%;
+}
+
+.about_headerwrapper{
+    display: flex;
+    margin-bottom: 66px;
+}
+
+.aboutheader_rightside{
+    background-image: url(/img/d58cfa0678133e37c56e77c44147338b\ \(1\).png);
+    width: 855px;
+    height: 569px;
+    background-size: contain;
+}
+
+.swipe_swoosh-wrapper{
+    text-align: center;
+}
