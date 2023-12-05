@@ -1,17 +1,18 @@
-*{
+* {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0px;
-    padding: 0px;    
+    padding: 0px;
     list-style-type: none;
     text-decoration: none;
 }
-.list_item:last-child{
+
+.list_item:last-child {
     margin-right: 0px;
 }
 
 
-.header_logotext{
+.header_logotext {
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
@@ -22,46 +23,50 @@
     -webkit-text-fill-color: transparent;
 }
 
-.header_wrapper{
+.header_wrapper {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 30px 30px 60px 80px;
 
 }
-.header_listwrapper{
+
+.header_listwrapper {
     display: flex;
     align-items: center;
     font-size: 14px;
     font-weight: 700;
-}  
+}
 
-.header_logo{
-    display: flex; 
+.header_logo {
+    display: flex;
     align-items: center;
     justify-content: center
 }
 
-.header_list{
+.header_list {
     display: flex;
 }
-.whatssup_telegramlist{
+
+.whatssup_telegramlist {
     display: flex;
     align-items: center;
 
 }
 
-.whatssup_telegramwrapper{
+.whatssup_telegramwrapper {
     display: flex;
 }
 
-.list_item{
+.list_item {
     color: #5E4CB3;
     margin-right: 27px;
 }
-.whatssup_telegramitem{
+
+.whatssup_telegramitem {
     margin-right: 15px;
 }
-.phone_number{
+
+.phone_number {
     color: var(--text, #5E4CB3);
     font-family: Montserrat;
     font-size: 24px;
@@ -71,7 +76,7 @@
     line-height: normal;
 }
 
-.about_shift{
+.about_shift {
     color: var(--text, #5E4CB3);
     font-family: Montserrat;
     font-size: 12px;
@@ -80,7 +85,7 @@
     line-height: normal;
 }
 
-.call_order{
+.call_order {
     font-size: 12px;
     font-style: normal;
     font-weight: 800;
@@ -92,7 +97,7 @@
     margin-right: 140px;
 }
 
-.another{
+.another {
     margin-right: 10px;
     justify-content: center;
     display: flex;
@@ -100,24 +105,24 @@
     flex-direction: column;
 }
 
-.aboutheader_lefside{
+.aboutheader_lefside {
     display: flex;
     flex-direction: column;
     padding-left: 170px;
 }
 
-.header_title{
+.header_title {
     color: var(--text, #5E4CB3);
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 30px;
 }
 
-.title_span{
+.title_span {
     color: var(--Primary, #9D61FF)
 }
 
-.aboutheader_text{
+.aboutheader_text {
     color: var(--text, #5E4CB3);
     font-family: Montserrat;
     font-size: 16px;
@@ -127,12 +132,12 @@
     margin-bottom: 116px;
 }
 
-.aboutheader_text-span{
+.aboutheader_text-span {
     color: var(--Primary, #9D61FF);
     font-weight: 700;
 }
 
-.checkprice{
+.checkprice {
     font-size: 12px;
     font-style: normal;
     font-weight: 800;
@@ -145,7 +150,7 @@
     margin-bottom: 20px;
 }
 
-.about_header-textbottom{
+.about_header-textbottom {
     color: var(--Primary, #9D61FF);
     font-family: Montserrat;
     font-size: 12px;
@@ -154,18 +159,85 @@
     line-height: 137.4%;
 }
 
-.about_headerwrapper{
+.about_headerwrapper {
     display: flex;
     margin-bottom: 66px;
 }
 
-.aboutheader_rightside{
+.aboutheader_rightside {
     background-image: url(/img/d58cfa0678133e37c56e77c44147338b\ \(1\).png);
     width: 855px;
     height: 569px;
     background-size: contain;
 }
 
-.swipe_swoosh-wrapper{
+.swipe_swoosh-wrapper {
     text-align: center;
+}
+
+.second_section-title{
+    color: var(--text, #5E4CB3);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.second_span{
+    color: var(--Primary, #9D61FF);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.grid_item{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 15px 30px 30px;
+    border-radius: 10px;
+    background: #FFF;
+    width: 373px;
+
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.first_row{
+    color: #B798BF;
+
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.second_row{
+    color: var(--Elements, #446FB3);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.horizontal_rule{
+    border: #446FB3 solid 1px;
+    width: 175px;
+}
+
+.fourth_row{
+    color: var(--text, #5E4CB3);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.second_section-grid{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    gap: 54px 20px;
+    padding: 50px 140px ;
 }
