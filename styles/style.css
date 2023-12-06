@@ -6,7 +6,9 @@
     list-style-type: none;
     text-decoration: none;
 }
-
+span{
+    display: block;
+}
 .list_item:last-child {
     margin-right: 0px;
 }
@@ -182,7 +184,9 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    text-align: center;
+    padding: 0px 170px;
+    margin-bottom: 50px;
+
 }
 
 .second_span{
@@ -193,16 +197,17 @@
 }
 
 .grid_item{
-    display: flex;
-    flex-direction: column;
+    width: calc(100% / 3 - 20px);
     padding: 2px 15px 30px 30px;
+
     border-radius: 10px;
     background: #FFF;
-    width: 373px;
+    
 
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
 
 }
+
 
 .first_row{
     color: #B798BF;
@@ -211,6 +216,7 @@
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
+    
 
 }
 
@@ -219,12 +225,25 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
 }
 
-.horizontal_rule{
-    border: #446FB3 solid 1px;
-    width: 175px;
+.second_row::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50%;
+    height: 1px;
+    background-color: #446FB3;
 }
+
+/* .horizontal_rule{
+    border: #446FB3 solid 1px;
+    width: calc(85%);
+} */
 
 .fourth_row{
     color: var(--text, #5E4CB3);
@@ -236,8 +255,9 @@
 
 .second_section-grid{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-flow: wrap;
-    gap: 54px 20px;
-    padding: 50px 140px ;
+    gap: 20px;
+    padding: 0px 160px;
+    
 }
